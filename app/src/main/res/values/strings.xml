@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">PrototipoEDP</string>
+    <string name="app_name_real">Hambroid</string>
+    <string name="login_name">Nombre de usuario</string>
+    <string name="login_pass">Contraseña</string>
+    <string name="login_btn">Iniciar sesion</string>
+    <string name="home_hello">Bienvenido %1s</string>
+    <string name="home_ordenar">Ordenar</string>
+    <string name="home_pedidos">Pedidos</string>
+    <string name="home_contacto">Contacto</string>
+    <string name="contacto_nombre">Nombre</string>
+    <string name="contacto_email">Email</string>
+    <string name="contacto_sexo">Sexo</string>
+    <string name="contacto_edad">Edad</string>
+    <string name="contacto_btn">Enviar</string>
+    <string name="contacto_title">Contacto</string>
+    <string name="pedidos_title">Pedidos</string>
+    <string name="orden_local_btn">Enviar</string>
+    <string name="orden_agregar_btn">Agregar</string>
+    <string name="orden_confirmar_btn">Confirmar</string>
+    <string name="confirmar_title">Confirmar</string>
+    <string name="confirmar_regresar">Regresar</string>
+    <string-array name="contacto_sexo">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <string-array name="ordenar_locales">
+        <item>McDonals</item>
+        <item>Papa Johns</item>
+        <item>Juan Maestro</item>
+    </string-array>
+    <string-array name="ordenar_comida_mcdonals">
+        <item>Hamburgesas $3500</item>
+        <item>Papas fritas $2000</item>
+    </string-array>
+    <string-array name="ordenar_comida_papajohns">
+        <item>Pizza mediana $7000</item>
+        <item>Pizza pequeña $5000</item>
+    </string-array>
+    <string-array name="ordenar_comida_juanmaestro">
+        <item>Italiano $3900</item>
+        <item>A lo pobre $4500</item>
+    </string-array>
+</resources>
