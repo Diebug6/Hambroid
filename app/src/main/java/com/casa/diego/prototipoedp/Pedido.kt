@@ -2,7 +2,8 @@ package com.casa.diego.prototipoedp
 
 import java.lang.StringBuilder
 
-class Pedido(comida: ArrayList<String>, fecha: ArrayList<String>, local: ArrayList<String>, total: ArrayList<String>) {
+class Pedido(comida: String, fecha: String, local: String, total:String) {
+
     var fecha = fecha
     var comida = comida
     var local = local
@@ -10,18 +11,14 @@ class Pedido(comida: ArrayList<String>, fecha: ArrayList<String>, local: ArrayLi
 
     override fun toString(): String {
         val sb = StringBuilder()
-        var x = 0
-        comida.forEach {
-            sb.append(fecha[x])
-            sb.append(" | ")
-            sb.append(local[x])
-            sb.append(" | ")
-            sb.append(comida[x])
-            sb.append(" | $")
-            sb.append(total[x])
-            sb.append(" \n")
-            x++
-        }
+        sb.append(fecha)
+        sb.append("|")
+        sb.append(comida)
+        sb.append("|")
+        sb.append(local)
+        sb.append("|")
+        sb.append(total)
+        sb.append("\n")
         return sb.toString()
     }
 }
