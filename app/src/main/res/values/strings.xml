@@ -20,25 +20,20 @@
     <string name="orden_confirmar_btn">Confirmar</string>
     <string name="confirmar_title">Confirmar</string>
     <string name="confirmar_regresar">Regresar</string>
+    <string name="home_local_administrar">Administrar Locales</string>
+    <string name="admin_agregar">Agregar locales</string>
+    <string name="admin_editar_menu">Editar menus</string>
+    <string name="admin_editar_local">Editar locales</string>
+    <string name="local">Matsui Sushi</string>
     <string-array name="contacto_sexo">
         <item>Hombre</item>
         <item>Mujer</item>
     </string-array>
-    <string-array name="ordenar_locales">
-        <item>McDonals</item>
-        <item>Papa Johns</item>
-        <item>Juan Maestro</item>
+    <string-array name="ordenar_comida_shushi">
+        <item>Bandeja 10 piezas $6000</item>
+        <item>Bandeja 15 piezas $10000</item>
+        <item>Bandeja 20 piezas $12000</item>
+        <item>Bandeja 30 piezas $15000</item>
     </string-array>
-    <string-array name="ordenar_comida_mcdonals">
-        <item>Hamburgesas $3500</item>
-        <item>Papas fritas $2000</item>
-    </string-array>
-    <string-array name="ordenar_comida_papajohns">
-        <item>Pizza mediana $7000</item>
-        <item>Pizza pequeña $5000</item>
-    </string-array>
-    <string-array name="ordenar_comida_juanmaestro">
-        <item>Italiano $3900</item>
-        <item>A lo pobre $4500</item>
-    </string-array>
+    <string name="title_activity_mapa_locales">Locales</string>
 </resources>

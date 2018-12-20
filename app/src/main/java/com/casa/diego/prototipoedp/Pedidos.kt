@@ -14,9 +14,9 @@ class Pedidos : AppCompatActivity() {
     }
     fun loadOrder(){
         orders.clear()
-        orders.add(Pedido("Italiano","25/03/2018","Juan Maestro","$3900"))
-        orders.add(Pedido("Papas Fritas","25/03/2018","McDonals","$2500"))
-        orders.add(Pedido("Pizza mediana","25/03/2018","Papa Johns","$7000"))
+        orders.add(Pedido("Italiano","25/03/2018","Bajon del chavo","$3900"))
+        orders.add(Pedido("Bandeja 15","25/03/2018","Sushi Sama","$2500"))
+        orders.add(Pedido("Pizza mediana","25/03/2018","Pizzaria","$7000"))
     }
     fun loadContent(){
         var txtView = findViewById(R.id.textView13) as TextView

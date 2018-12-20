@@ -18,38 +18,13 @@ class Ordenar : AppCompatActivity() {
         loadLocales()
     }
     fun loadLocales(){
-        val spinner = findViewById<View>(R.id.spinner3) as Spinner
-        val adapter = ArrayAdapter.createFromResource(this, R.array.ordenar_locales, android.R.layout.simple_spinner_item)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinner.adapter = adapter
+        var txtView = findViewById(R.id.textView9) as TextView
+        txtView.text = getString(R.string.local)
+        loadMenu()
     }
-
-    fun loadFood(view: View){
-        val spinner = findViewById<View>(R.id.spinner3) as Spinner
-        val local = spinner.getSelectedItem().toString()
-        if(local == "McDonals"){
-            loadMcdonald()
-        }else if(local == "Papa Johns"){
-            loadPapa()
-        }else if(local == "Juan Maestro"){
-            loadMaestro()
-        }
-    }
-    fun loadMaestro(){
+    fun loadMenu(){
         val spinner = findViewById<View>(R.id.spinner4) as Spinner
-        val adapter = ArrayAdapter.createFromResource(this, R.array.ordenar_comida_juanmaestro, android.R.layout.simple_spinner_item)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinner.adapter = adapter
-    }
-    fun loadMcdonald(){
-        val spinner = findViewById<View>(R.id.spinner4) as Spinner
-        val adapter = ArrayAdapter.createFromResource(this, R.array.ordenar_comida_mcdonals, android.R.layout.simple_spinner_item)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinner.adapter = adapter
-    }
-    fun loadPapa(){
-        val spinner = findViewById<View>(R.id.spinner4) as Spinner
-        val adapter = ArrayAdapter.createFromResource(this, R.array.ordenar_comida_papajohns, android.R.layout.simple_spinner_item)
+        val adapter = ArrayAdapter.createFromResource(this, R.array.ordenar_comida_shushi, android.R.layout.simple_spinner_item)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
     }

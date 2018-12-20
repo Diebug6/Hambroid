@@ -1,11 +1,20 @@
 package com.casa.diego.prototipoedp
 
+import android.Manifest
+import android.content.Context
 import android.content.Intent
+import android.location.Criteria
+import android.location.LocationManager
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.app.ActivityCompat
 import android.view.View
 import android.widget.TextView
-import com.casa.diego.prototipoedp.Constants.Companion.user
+
+import com.google.android.gms.location.places.ui.PlacePicker
+
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.LatLngBounds
 
 class Home : AppCompatActivity() {
 
@@ -28,7 +37,7 @@ class Home : AppCompatActivity() {
         startActivity(intent)
     }
     fun ordenar(view: View){
-        var intent = Intent(this, Ordenar::class.java)
+        var intent = Intent(this, MapaLocales::class.java)
         startActivity(intent)
     }
 }
